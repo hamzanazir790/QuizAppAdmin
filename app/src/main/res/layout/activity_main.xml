@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/questiontype"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Question Type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questiontype" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/opt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Opt 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/opt2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Opt 2"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt1" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/opt3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Opt 3"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt2" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/opt4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Opt 4"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt3" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Save Data"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/opt4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt4" />
+    <Button
+        android:id="@+id/show_data"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Show Data"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/opt4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_save" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

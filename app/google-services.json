@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "524178705384",
+    "project_id": "bff-application-89f87",
+    "storage_bucket": "bff-application-89f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524178705384:android:80c8bd6e57835591a3b25d",
+        "android_client_info": {
+          "package_name": "com.example.quizappadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524178705384-bbbodpjh8f3qs5n49pv7h64ae55pud4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzsCHMLmeo0TT0Em1cttqmuW-stxKKQ_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524178705384-bbbodpjh8f3qs5n49pv7h64ae55pud4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524178705384:android:557e0da66c172f14a3b25d",
+        "android_client_info": {
+          "package_name": "com.itapp.bff.friendshiptest.bfftest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524178705384-bbbodpjh8f3qs5n49pv7h64ae55pud4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzsCHMLmeo0TT0Em1cttqmuW-stxKKQ_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524178705384-bbbodpjh8f3qs5n49pv7h64ae55pud4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
